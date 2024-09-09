@@ -9,7 +9,7 @@ connection  : "local"
 webapp_instance_task_name       : "Wordpress Web Application Server"
 webapp_instance_image           : "ami-0a0e5d9c7acc336f1"  # Replace with the desired Amazon Machine Image (AMI)
 webapp_instance_type            : "t2.micro"        # Replace with the desired EC2 instance type
-webapp_instance_region          : "us-west-1"       # Replace with your desired region
+webapp_instance_region          : "us-east-1"       # Replace with your desired region
 webapp_instance_group_id        : "sg-0eb24dcfe338e2a78"
 webapp_instance_subnet_id       : "subnet-0dfdea9f99d1d3a40"  # Replace with your subnet ID
 webapp_instance_key_name        : "keypair01"  # Replace with your key pair name
